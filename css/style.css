@@ -1,0 +1,110 @@
+body{
+    background-color: #f6f8fa;
+}
+* {
+    margin: 0;
+
+}
+
+.description {
+    background-color: #ffebcd;
+    text-align: center;
+    padding: 8px;
+}
+
+.description .span{
+    font-size: 30px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    background-color: #fff;;
+}
+
+.logo img {
+    height: 40px;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 20px;
+    color: #6c6c6c;
+    
+}
+
+.nav,
+ul,
+li,
+a {
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px;
+    color: black;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.top-content .rtc-img img {
+    height: 450px;
+    margin-right: 70px;
+
+}
+
+.top-content-description {
+    width: 500px;
+    margin-left: 70px;
+}
+
+.top-content-description h1 {
+    font-size: 35px;
+    color: #878f96;
+    margin: 10px 0;
+}
+
+.top-content-description p {
+    font-size: 25px;
+    color: #878f96;
+    margin: 15px 0;
+}
+
+.top-content .top-content-description .button .btn {
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #212529;
+    ;
+    border: none;
+    font-size: 16px;
+    margin-right: 60px;
+}
+
+.top-content .top-content-description .button .btn-call {
+    background-color: #ffc107;
+    color: black;
+}
+
+.features{
+    padding: 0 80px;
+    
+}
+
+.features .feature-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-heading{
+    color: #518ef4;;
+}
