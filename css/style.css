@@ -79,7 +79,7 @@ a {
     margin: 15px 0;
 }
 
-.top-content .top-content-description .button .btn {
+.top-content .top-content-description .button .btn{
     border-radius: 5px;
     padding: 10px;
     color: white;
@@ -130,7 +130,7 @@ a {
     background-color: white;
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.142);
     border-radius: 5px;
-    box-shadow: 0 5px 0 0 #4285f4;;
+    box-shadow: 0 5px 0 0 #4285f4;
 }
 
 .courses .c-course .course-card img{
@@ -172,4 +172,58 @@ a {
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
+ }
+
+
+ .students{
+    padding: 0 80px;
+ }
+
+ .students h1,p{
+    text-align: center;
+ }
+
+ .students h1{
+    font-size:35px ;
+ }
+
+ .students p{
+    font-size:25px ;
+    margin: 15px 0;
+ }
+
+ .students-card{
+    
+    display: flex;
+    justify-content: space-between;
+ }
+ .s-name{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+ }
+
+ .s-name img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+ }
+
+ .s-name span{
+    font-size: 20px;
+ }
+
+ .s-card-content {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 10px;
+ }
+ .s-card-content i{
+    margin-right: 7px;
+ }
+
+ .s-card-content p{
+    font-size: 18px;
+    text-align: start;
  }
