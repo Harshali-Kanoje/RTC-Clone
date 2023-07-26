@@ -108,3 +108,68 @@ a {
 .f-heading{
     color: #518ef4;;
 }
+
+.courses{
+   padding: 0 80px;
+   
+}
+
+.courses h1{
+    text-align: center;
+    
+ }
+.courses .c-course{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.courses .c-course .course-card{
+    padding: 5px;
+    margin: 20px;
+    width: 420px;
+    background-color: white;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.142);
+    border-radius: 5px;
+    box-shadow: 0 5px 0 0 #4285f4;;
+}
+
+.courses .c-course .course-card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.courses .c-course .course-card p{
+   margin: 10px 0px;
+}
+
+.courses .c-course .course-card span{
+    margin: 10px 0px;
+    display: block;
+    font-size: 20px;
+ }
+
+ .courses .c-course .course-card .span1 span{
+    text-align: center;
+    font-size: 25px;
+ }
+
+ .courses .c-course .course-card span i{
+    margin-right: 5px;
+    color: #518ef4;
+ }
+
+ .courses .c-course .course-card .btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   
+
+ }
+
+ .courses .c-course .course-card button{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+ }
